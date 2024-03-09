@@ -347,26 +347,6 @@ playerSeekRange.addEventListener("input", seek);
  * END MUSIC
  */
 
-// const isMusicEnd = function () {
-//   if (audioSource.ended) {
-//     playBtn.classList.remove("active");
-//     audioSource.currentTime = 0;
-//     playerSeekRange.value = audioSource.currentTime;
-//     playerRunningTime.textContent = getTimecode(audioSource.currentTime);
-//     updateRangeFill();
-//   }
-
-//   audioSource.addEventListener("ended", function () {
-//     if (currentMusic < musicData.length - 1) {
-//       currentMusic++;
-//     } else {
-//       currentMusic = 0;
-//     }
-//     changePlayerInfo();
-//     changePlaylistItem();
-//   });
-// };
-
 const isMusicEnd = function () {
   if (audioSource.ended) {
     playBtn.classList.remove("active");
@@ -376,14 +356,14 @@ const isMusicEnd = function () {
     updateRangeFill();
 
     // Play the next song..... You can work on this later in the future.
-    if (currentMusic < musicData.length - 1) {
-      currentMusic++;
-    } else {
-      currentMusic = 0;
-    }
-    changePlayerInfo();
-    changePlaylistItem();
-  }
+  //   if (currentMusic < musicData.length - 1) {
+  //     currentMusic++;
+  //   } else {
+  //     currentMusic = 0;
+  //   }
+  //   changePlayerInfo();
+  //   changePlaylistItem();
+  // }
 };
 
 /**
