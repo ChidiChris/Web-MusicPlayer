@@ -505,25 +505,3 @@ const muteVolume = function () {
 
 playerVolumeBtn.addEventListener("click", muteVolume);
 
-const isMusicEndMusic = function () {
-  // if (audioSource.paused) {
-  //   audioSource.play();
-  //   playBtn.classList.add("active");
-  //   playInterval = setInterval(updateRunningTime, 500);
-  // } else {
-  //   audioSource.pause();
-  //   playBtn.classList.remove("active");
-  //   clearInterval(playInterval);
-  // }
-
-  // If the current song has ended, play the next song in the playlist
-  // audioSource.addEventListener("ended", function () {
-  //   if (currentMusic < musicData.length - 1) {
-  //     currentMusic++;
-  //   } else {
-  //     currentMusic = 0;
-  //   }
-  //   changePlayerInfo();
-  //   changePlaylistItem();
-  // });
-};
