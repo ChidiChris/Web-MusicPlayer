@@ -134,8 +134,8 @@ const musicData = [
       "./music/John_Denver_-_Take_Me_Home,_Country_Roads_(Official_Audio)(256k).mp3",
   },
   {
-    backgroundImage: "./image/cry.jpg",
-    posterUrl: "./image/cry.jpg",
+    backgroundImage: "./image/Cry.jpg",
+    posterUrl: "./image/Cry.jpg",
     title: "Homesick",
     album: "Rojo",
     year: 2021,
