@@ -12,7 +12,7 @@ const musicData = [
     album: "MMADU",
     year: 2022,
     artist: "Emikay",
-    musicPath: "./music/Emikay.mp3",
+    musicPath: "./music/Emikay.mpeg",
   },
   {
     backgroundImage: "./image/Daily bread.jpg",
