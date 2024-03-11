@@ -6,6 +6,15 @@
 
 const musicData = [
   {
+    backgroundImage: "./image/ike.jpg",
+    posterUrl: "./image/ike.jpg",
+    title: "MMADU (Master)",
+    album: "MMADU",
+    year: 2022,
+    artist: "Emikay",
+    musicPath: "./music/Emikay.mp3",
+  },
+  {
     backgroundImage: "./image/Daily bread.jpg",
     posterUrl: "./image/Daily bread.jpg",
     title: "Amen",
@@ -13,15 +22,6 @@ const musicData = [
     year: 2022,
     artist: "JKaps",
     musicPath: "./music/AMEN.mp3",
-  },
-  {
-    backgroundImage: "./image/ike.jpg",
-    posterUrl: "./image/ike.jpg",
-    title: "MMADU (Master)",
-    album: "MMADU",
-    year: 2022,
-    artist: "Emikay",
-    musicPath: "./music/MMADU(128K).mp3",
   },
   {
     backgroundImage: "./image/Obiagu.png",
